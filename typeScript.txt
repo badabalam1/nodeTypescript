@@ -1,0 +1,15 @@
+npx: global로 패키지를 설치하지 않더라도 프로젝트 내에서 사용할 수 있게 해준다.
+nodemon: 파일이 변경될 때마다 재시작을 해준다.
+typescript: typescript로 구성된 코드를 javascript로 트랜스파일링(변환)을 해준다.
+npm-run-all: 여러 npm 실행 명령을 병렬로 실행할 수 있게 해준다.
+webpack: 요즘 사랑받는 모듈 *번들러
+webpack-cli: webpack 명령을 사용하기 위한 CLI도구 
+source-map-support: typescript로 개발 시 source-map을 지원해준다.
+@types/express: express 모듈에 대한 type을 지원해준다.
+
+npm install -g npx
+npm install --save-dev typescript ts-loader npm-run-all webpack @types/express nodemon webpack-cli
+npm install --save express source-map-support
+
+
+번들러란: 지정된 단위로 파일들을 하나로 만들어서 요청에 대한 응답을 전달할 수 있는 환경으로 만들어주는 것.
